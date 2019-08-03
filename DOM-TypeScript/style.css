@@ -1,0 +1,46 @@
+.calculator{
+    display: inline-block; /*自动内缩*/
+}
+.calculator .button {
+    width: 6em;
+    height: 6em;
+    background: #e0e0e0;
+    outline: none;
+}
+
+.calculator .button.text-Clear {
+    width: 18em;
+}
+.calculator .button.text-0 {
+    width: 12em;
+}
+/*.calculator .button.text-+ {*/
+    /*color: #fff;*/
+    /*background: #ea9748;*/
+/*}*/
+/*.calculator .button.text-- {*/
+    /*color: #fff;*/
+    /*background: #ea9748;*/
+/*}*/
+/*.calculator .button.text-* {*/
+    /*color: #fff;*/
+    /*background: #ea9748;*/
+/*}*/
+/*.calculator .button.text-÷ {*/
+    /*color: #fff;*/
+    /*background: #ea9748;*/
+/*}*/
+
+.calculator .output{
+    position: relative;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    height: 6em;
+}
+
+.calculator .output span{
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    font-size: 40px;
+}
