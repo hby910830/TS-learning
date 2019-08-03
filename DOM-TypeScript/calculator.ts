@@ -1,11 +1,13 @@
-class Calculator{
-    public container:HTMLDivElement
+//面向对象
+class Calculator {
+    public container: HTMLDivElement
     public span: HTMLSpanElement
     public output: HTMLSpanElement
     public button: HTMLButtonElement
-    public n1: number
-    public n2: number
-    public operator: string
+    public n1: string = null
+    public n2: string = null
+    public operator: string = null
+    public result: string = null
     public keys: Array<Array<string>> = [
         ["Clear", "÷"],
         ["7", "8", "9", "*"],
@@ -13,22 +15,25 @@ class Calculator{
         ["1", "2", "3", "+"],
         ["0", ".", "="]
     ]
-    constructor(){
+
+    constructor() {
         this.createContainer()
         this.createOutput()
         this.createButtons()
         this.bindEvents()
     }
-    createButtons(){
-        this.keys.forEach((textList: Array<string>) => {
+
+    createButtons() {
+        this.keys.forEach((textList: Array<string>): void => {
             let div: HTMLDivElement = document.createElement('div')
             div.classList.add('row')
-            textList.forEach((text: string) => {
+            textList.forEach((text: string): void => {
                 this.createButton(text, div, `button text-${text}`)
             })
             this.container.appendChild(div)
         })
     }
+
     createButton(text: string, container: HTMLElement, className: string) {
         let button: HTMLButtonElement = document.createElement('button')
         button.textContent = text
@@ -36,13 +41,15 @@ class Calculator{
         container.appendChild(button)
         this.button = button
     }
-    createContainer(){
+
+    createContainer() {
         let container: HTMLDivElement = document.createElement('div')
         container.classList.add('calculator')
         document.body.appendChild(container)
         this.container = container
     }
-    createOutput(){
+
+    createOutput() {
         let output: HTMLDivElement = document.createElement('div')
         output.classList.add('output')
         let span: HTMLSpanElement = document.createElement('span')
@@ -52,59 +59,93 @@ class Calculator{
         this.output = output
         this.span = span
     }
-    bindEvents(){
+
+    bindEvents() {
         this.container.addEventListener('click', event => {
             if (event.target instanceof HTMLButtonElement) {
                 let button: HTMLButtonElement = event.target
                 let text: string = button.textContent
-                //判断字符类型
-                if ('0123456789'.indexOf(text) > -1) {
-                    if (this.operator) {
-                        //更新n2
-                        if (this.n2) {
-                            this.n2 = parseInt(this.n2.toString() + text)
-                        } else {
-                            this.n2 = parseInt(text)
-                        }
-                        this.span.textContent = this.n2.toString()
-                    } else {
-                        //更新n1
-                        if (this.n1) {
-                            this.n1 = parseInt(this.n1.toString() + text)
-                        } else {
-                            this.n1 = parseInt(text)
-                        }
-                        this.span.textContent = this.n1.toString()
-                    }
-                } else if ('+-*÷'.indexOf(text) > -1) {
-                    //更新operator
-                    this.operator = text
-                } else if ('='.indexOf(text) > -1) {
-                    //更新结果
-                    let result: number
-                    switch (this.operator) {
-                        case '+':
-                            result = (this.n1 + this.n2);
-                            break
-                        case '-':
-                            result = (this.n1 - this.n2);
-                            break
-                        case '*':
-                            result = (this.n1 * this.n2);
-                            break
-                        case '÷':
-                            result = (this.n1 / this.n2);
-                            break
-                    }
-                    this.span.textContent = result.toString()
-                }
+                this.updateNumbersOrOperator(text)
             }
         })
     }
+
+    updateNumber(name: string, text: string): void {
+        if (this[name]) {
+            this[name] += text
+        } else {
+            this[name] = text
+        }
+        this.span.textContent = this[name].toString()
+    }
+
+    updateNumbers(text: string): void {
+        if (this.operator) {
+            this.updateNumber('n2', text)
+        } else {
+            this.updateNumber('n1', text)
+        }
+    }
+
+    updateResult(): void {
+        let result
+        let n1: number = parseFloat(this.n1)
+        let n2: number = parseFloat(this.n2)
+        switch (this.operator) {
+            case '+':
+                result = n1 + n2
+                break
+            case '-':
+                result = n1 - n2
+                break
+            case '*':
+                result = n1 * n2
+                break
+            case '÷':
+                result = n1 / n2
+                break
+        }
+        result = result.toPrecision(6)
+            .replace(/0+$/g, '')
+            .replace(/0+e/g, 'e')
+        if(n2 === 0){
+            result = '不是数字'
+        }
+        this.span.textContent = result
+        this.n1 = null
+        this.n2 = null
+        this.operator = null
+        this.result = result
+    }
+
+    updateOperator(text: string): void {
+        if (this.n1 === null) {
+            this.n1 = this.result
+        }
+        this.operator = text
+    }
+
+    updateNumbersOrOperator(text) {
+        if ('0123456789.'.indexOf(text) > -1) {
+            this.updateNumbers(text)
+        } else if ('+-*÷'.indexOf(text) > -1) {
+            this.updateOperator(text)
+        } else if ('='.indexOf(text) > -1) {
+            this.updateResult()
+        } else if (text === 'Clear') {
+            this.n1 = null
+            this.n2 = null
+            this.operator = null
+            this.result = null
+            this.span.textContent = '0'
+        }
+    }
 }
+
 new Calculator()
 
 
+//非面向对象
 //声明创建按钮函数
 // function createButton(text: string, container: HTMLElement, className: string) {
 //     let button: HTMLButtonElement = document.createElement('button')
@@ -201,6 +242,3 @@ new Calculator()
 //     })
 //     container.appendChild(div)
 // })
-
-
-

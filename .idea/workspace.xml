@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="" />
+    <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM-TypeScript/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM-TypeScript/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOM-TypeScript/calculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DOM-TypeScript/calculator.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,21 +18,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOM-TypeScript/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="184">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculator.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calculator.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOM-TypeScript/calculator.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2760">
-              <caret line="104" column="14" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="14" />
+            <state relative-caret-position="-2105">
+              <caret line="147" column="7" lean-forward="true" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+              <folding>
+                <element signature="e#399#415#0" />
+                <element signature="e#635#1003#0" />
+                <element signature="e#1079#1297#0" />
+                <element signature="e#1333#1536#0" />
+                <element signature="e#1557#1898#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calculator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DOM-TypeScript/calculator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1532">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -43,6 +73,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parseIn</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -50,6 +88,7 @@
         <option value="$PROJECT_DIR$/DOM-TypeScript/index.html" />
         <option value="$PROJECT_DIR$/DOM-TypeScript/style.css" />
         <option value="$PROJECT_DIR$/DOM-TypeScript/calculator.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -67,6 +106,7 @@
     <option name="width" value="716" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -79,17 +119,6 @@
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM-TypeScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM-TypeScript" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -104,6 +133,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
@@ -129,11 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564710202071</updated>
       <workItem from="1564710204545" duration="9911000" />
+      <workItem from="1564805131371" duration="6769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9911000" />
+    <option name="totallyTimeSpent" value="16680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -141,27 +172,27 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="0" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32880098" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.32880098" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.1595136" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32880098" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32880098" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16165951" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="Job Explorer" order="2" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Console" order="7" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +207,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DOM-TypeScript/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOM-TypeScript/calculator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="104" column="14" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="14" />
+          <folding>
+            <element signature="e#399#415#0" />
+            <element signature="e#635#1003#0" />
+            <element signature="e#1079#1297#0" />
+            <element signature="e#1333#1536#0" />
+            <element signature="e#1557#1898#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DOM-TypeScript/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1333">
@@ -185,22 +237,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DOM-TypeScript/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="184">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DOM-TypeScript/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="1532">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DOM-TypeScript/calculator.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="104" column="14" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="14" />
+        <state relative-caret-position="-2105">
+          <caret line="147" column="7" lean-forward="true" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+          <folding>
+            <element signature="e#399#415#0" />
+            <element signature="e#635#1003#0" />
+            <element signature="e#1079#1297#0" />
+            <element signature="e#1333#1536#0" />
+            <element signature="e#1557#1898#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
