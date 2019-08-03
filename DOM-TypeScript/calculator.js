@@ -225,3 +225,4 @@ new Calculator();
 //     })
 //     container.appendChild(div)
 // })
+//# sourceMappingURL=calculator.js.map
