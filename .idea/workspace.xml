@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/class/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/demo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function_1/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function_1/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Function_1/demo.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Class/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Class/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Class/demo.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,19 +23,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="demo.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/demo.ts">
+        <entry file="file://$PROJECT_DIR$/Function_1/demo.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="417">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class/demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-487" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Function_1/demo.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -68,8 +69,10 @@
         <option value="$PROJECT_DIR$/Data-Type/demo.ts" />
         <option value="$PROJECT_DIR$/Interface/demo.js" />
         <option value="$PROJECT_DIR$/Interface/demo.ts" />
+        <option value="$PROJECT_DIR$/Function_1/demo.js" />
         <option value="$PROJECT_DIR$/class/demo.js" />
         <option value="$PROJECT_DIR$/class/demo.ts" />
+        <option value="$PROJECT_DIR$/Function_1/demo.ts" />
       </list>
     </option>
   </component>
@@ -92,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,19 +106,18 @@
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="Function_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="class" type="462c0819:PsiDirectoryNode" />
+              <item name="Function_1" type="462c0819:PsiDirectoryNode" />
               <item name="demo.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +165,8 @@
       <workItem from="1564805131371" duration="6769000" />
       <workItem from="1564815506376" duration="4829000" />
       <workItem from="1564849526612" duration="5841000" />
-      <workItem from="1564907597045" duration="1305000" />
+      <workItem from="1564907597045" duration="2445000" />
+      <workItem from="1564935186694" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -175,7 +179,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28655000" />
+    <option name="totallyTimeSpent" value="31372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -189,7 +193,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33745363" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32880098" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32880098" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16809729" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.1702432" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -203,7 +207,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880098" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,14 +228,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="数据类型" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/demo.ts">
+    <entry file="file://$PROJECT_DIR$/Function_1/demo.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class/demo.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/demo.js">
+    <entry file="file://$PROJECT_DIR$/Class/demo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Interface/demo.html">
@@ -356,22 +364,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/demo.html">
+    <entry file="file://$PROJECT_DIR$/Class/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1418">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/demo.js">
+    <entry file="file://$PROJECT_DIR$/Class/demo.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487" />
+        <state relative-caret-position="2323">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/demo.ts">
+    <entry file="file://$PROJECT_DIR$/Function_1/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Function_1/demo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Function_1/demo.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        <state relative-caret-position="417">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
         </state>
       </provider>
     </entry>
