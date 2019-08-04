@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Data-Type/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Type/demo.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Interface/demo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Interface/demo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Interface/demo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOM-TypeScript/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOM-TypeScript/calculator.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,14 +19,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interface/demo.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="demo.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Interface/demo.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="991">
+              <caret line="104" column="15" lean-forward="true" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interface/demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-620">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -128,6 +132,11 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -152,12 +161,21 @@
       <updated>1564710202071</updated>
       <workItem from="1564710204545" duration="9911000" />
       <workItem from="1564805131371" duration="6769000" />
-      <workItem from="1564815506376" duration="4539000" />
+      <workItem from="1564815506376" duration="4829000" />
+      <workItem from="1564849526612" duration="3879000" />
     </task>
+    <task id="LOCAL-00001" summary="数据类型">
+      <created>1564822592230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564822592231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21219000" />
+    <option name="totallyTimeSpent" value="25388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -167,25 +185,25 @@
       <window_info id="DB Browser" order="0" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32880098" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33745363" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33745363" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32880098" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32880098" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16380544" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.16595136" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +218,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据类型" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Interface/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/demo.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DOM-TypeScript/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -285,13 +313,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data-Type/demo.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data-Type/demo.js.map" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/Data-Type/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -306,14 +329,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interface/demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interface/demo.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Interface/demo.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="104" column="15" lean-forward="true" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
