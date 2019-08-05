@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Function_2/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_2/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_2/demo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts_vue_cli3/src/components/Hanbaoyi.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interface/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interface/demo.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +17,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Function_2/demo.ts">
+      <file leaf-file-name="Hanbaoyi.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/Hanbaoyi.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1914">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#74#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Function_2/demo.js">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="184">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="56" />
+              <folding>
+                <element signature="e#182#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,9 +48,10 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -78,17 +82,33 @@
         <option value="$PROJECT_DIR$/Generic/demo.ts" />
         <option value="$PROJECT_DIR$/Function_2/demo.js" />
         <option value="$PROJECT_DIR$/Function_2/demo.ts" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/components/hanbaoyi.ts" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/components/hanbaoyi.vue" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/App.vue" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/main.ts" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/components/Hanbaoyi.vue" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ts_vue_cli3/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ts_vue_cli3/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
@@ -110,7 +130,26 @@
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_vue_cli3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_vue_cli3" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_vue_cli3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_vue_cli3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,7 +205,7 @@
       <workItem from="1564849526612" duration="5841000" />
       <workItem from="1564907597045" duration="2445000" />
       <workItem from="1564935186694" duration="1763000" />
-      <workItem from="1564968171017" duration="7023000" />
+      <workItem from="1564968171017" duration="9541000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -179,7 +218,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38581000" />
+    <option name="totallyTimeSpent" value="41099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -217,6 +256,8 @@
       <list>
         <option value="$PROJECT_DIR$/DOM-TypeScript/calculator.js" />
         <option value="$PROJECT_DIR$/Data-Type/demo.js" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/main.js.map" />
+        <option value="$PROJECT_DIR$/ts_vue_cli3/src/main.js" />
       </list>
     </option>
   </component>
@@ -228,26 +269,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="数据类型" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Function_1/demo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Function_1/demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Function_1/demo.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class/demo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class/demo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -434,6 +455,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1914">
           <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/.browserslistrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/shims-vue.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/shims-tsx.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/hanbaoyi.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#182#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/node_modules/vue-class-component/lib/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/node_modules/vue-property-decorator/lib/vue-property-decorator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/Hanbaoyi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#74#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
