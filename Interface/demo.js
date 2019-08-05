@@ -35,7 +35,7 @@
     // }
     // let add: 二则运算 = fn()
     // 代码改进
-    var add = (function () {
+    var add_1 = (function () {
         var x = function (a, b) {
             return a + b;
         };
@@ -44,7 +44,7 @@
         };
         return x;
     })();
-    console.log(add(1, 2));
+    console.log(add_1(1, 2));
 }
 //继承
 {
