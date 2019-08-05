@@ -9,7 +9,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 {
-    var Animal = /** @Class */ (function () {
+    var Animal = /** @class */ (function () {
         function Animal(kind) {
             this.kind = kind;
             if (this.kind === '哺乳动物') {
@@ -24,7 +24,7 @@ var __extends = (this && this.__extends) || (function () {
         };
         return Animal;
     }());
-    var Human = /** @Class */ (function (_super) {
+    var Human = /** @class */ (function (_super) {
         __extends(Human, _super);
         function Human(name, age) {
             var _this = _super.call(this, '哺乳动物') //类的继承必须要写super(),里面的参数是传给父类的constructor的参数
@@ -76,7 +76,7 @@ var __extends = (this && this.__extends) || (function () {
 // 也可以叫做「没有写完的类」：只描述有什么方法，并没有完全实现这些方法。
 // 由于这个类没有写完，所以不能创建出对象。（会报错）
 {
-    var Animal = /** @Class */ (function () {
+    var Animal = /** @class */ (function () {
         function Animal() {
         }
         Animal.prototype.move = function () {
@@ -84,7 +84,7 @@ var __extends = (this && this.__extends) || (function () {
         };
         return Animal;
     }());
-    var Human = /** @Class */ (function (_super) {
+    var Human = /** @class */ (function (_super) {
         __extends(Human, _super);
         function Human() {
             return _super !== null && _super.apply(this, arguments) || this;
@@ -102,7 +102,7 @@ var __extends = (this && this.__extends) || (function () {
 // 接口是低配版的类。
 // 类是高配版的接口。
 {
-    var Point = /** @Class */ (function () {
+    var Point = /** @class */ (function () {
         function Point() {
         }
         return Point;
