@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ts_vue_todo_list/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ts_vue_todo_list/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts_vue_todo_list/src/components/TodoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ts_vue_todo_list/src/components/TodoList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,34 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/App.vue">
+      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="-152">
               <folding>
-                <element signature="e#196#250#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewTodo.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/NewTodo.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="TodoList.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/TodoList.vue">
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="341">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding>
-                <element signature="e#327#381#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,12 +121,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ts_react_app/node_modules" />
     <handled-path value="$PROJECT_DIR$/ts_vue_cli3/node_modules" />
     <handled-path value="$PROJECT_DIR$/ts_vue_todo_list/node_modules" />
     <handled-path value="$PROJECT_DIR$/ts_vue_webpack4/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ts_react_app/package.json" />
       <path value="$PROJECT_DIR$/ts_vue_cli3/package.json" />
       <path value="$PROJECT_DIR$/ts_vue_todo_list/package.json" />
       <path value="$PROJECT_DIR$/ts_vue_webpack4/package.json" />
@@ -159,20 +155,13 @@
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="ts_vue_todo_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_react_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="ts_vue_todo_list" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_react_app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="ts_vue_todo_list" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +223,7 @@
       <workItem from="1565009578785" duration="4880000" />
       <workItem from="1565016946993" duration="23000" />
       <workItem from="1565016975180" duration="852000" />
-      <workItem from="1565053045007" duration="9416000" />
+      <workItem from="1565053045007" duration="10466000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -250,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565075711862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="用splice更新列表,Partial声明部分类型，Object.assign拷贝todo-list">
+      <created>1565081014341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565081014341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56878000" />
+    <option name="totallyTimeSpent" value="57928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -309,41 +305,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据类型" />
     <MESSAGE value="提取出公用的models/Todo.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="提取出公用的models/Todo.ts" />
+    <MESSAGE value="用splice更新列表,Partial声明部分类型，Object.assign拷贝todo-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="用splice更新列表,Partial声明部分类型，Object.assign拷贝todo-list" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/shims-tsx.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/hanbaoyi.ts" />
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/node_modules/vue-class-component/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/node_modules/vue-property-decorator/lib/vue-property-decorator.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/Hanbaoyi.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -459,9 +424,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/dist/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/tsconfig.json">
@@ -595,12 +557,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="108">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#196#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/serviceWorker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
