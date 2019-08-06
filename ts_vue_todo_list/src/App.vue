@@ -1,32 +1,50 @@
 <template>
   <div id="app">
-    Hi, TS vue! {{msg}}
-    <button @click="fn">点我</button>
-    <hello name="韩宝亿"/>
+    <div class="inner">
+      <new-todo @addTodo="addTodo"></new-todo>
+      <todo-list :list="list"></todo-list>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
   import {Component, Vue} from 'vue-property-decorator';
-  import Hello from './components/HelloWorld.vue'
+  import NewTodo from './components/NewTodo.vue'
+  import TodoList from './components/TodoList.vue'
+
+  interface Todo {
+    name: String;
+    status: 'done' | 'todo' | 'deleted';
+  }
 
   @Component({
     components: {
-      Hello,
+      NewTodo,
+      TodoList
     }
   })
-  export default class App extends Vue {
-    msg = '你好'
 
-    fn() {
-      alert('123')
+  export default class App extends Vue {
+    list: Array<Todo> = [
+      {name: '任务1', status: 'todo'},
+      {name: '任务2', status: 'done'}
+    ]
+
+    addTodo(name: string) {
+      let todo: Todo = {name, status: 'todo'}
+      this.list.push(todo)
     }
   }
 </script>
 
 <style lang="scss">
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > .inner {
+      border: 1px solid grey;
+      padding: 20px;
+    }
   }
 </style>
