@@ -3,6 +3,17 @@ import ReactDOM from 'react-dom';
 import Button from './Button'
 import Dialog from './Dialog'
 
+//e:React.MouseEvent这里必须声明参数的鼠标事件类型
+// let alertDialog = (e:React.MouseEvent) => {
+//   console.log(e);
+//   alert('alertDialog')
+// }
+
+//另外一种写法
+let alertDialog:React.MouseEventHandler = e => {
+  console.log(e);
+  console.log('alertDialog')
+}
 
 ReactDOM.render(
   <div>
