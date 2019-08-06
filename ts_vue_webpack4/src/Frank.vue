@@ -20,13 +20,13 @@
       }
     },
     methods: {
-      add() {
-        let number: number = this.number + 1
-        this.number = number
+      add():void {
+        let num: number = this.number + 1
+        this.number = num
       },
-      minus() {
-        let number: number = this.number - 1
-        this.number = number
+      minus():void {
+        let num: number = this.number - 1
+        this.number = num
       }
     }
   }
