@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ts_react_app/src/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts_react_app/src/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ts_react_app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ts_react_app/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts_react_app/src/serviceWorker.ts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.tsx">
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
+            <state relative-caret-position="156">
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -27,19 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Button.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ts_react_app/src/Button.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.tsx">
+      <file leaf-file-name="Button.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ts_react_app/src/Button.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,11 +65,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="Vue Single File Component" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,6 +120,11 @@
         <option value="$PROJECT_DIR$/ts_vue_todo_list/src/models/Todo.ts" />
         <option value="$PROJECT_DIR$/ts_vue_todo_list/src/components/TodoList.vue" />
         <option value="$PROJECT_DIR$/ts_vue_todo_list/src/App.vue" />
+        <option value="$PROJECT_DIR$/ts_react_app/README.md" />
+        <option value="$PROJECT_DIR$/ts_react_app/src/button.css" />
+        <option value="$PROJECT_DIR$/ts_react_app/src/Button.tsx" />
+        <option value="$PROJECT_DIR$/ts_react_app/src/index.tsx" />
+        <option value="$PROJECT_DIR$/ts_react_app/src/Button.css" />
       </list>
     </option>
   </component>
@@ -156,6 +176,12 @@
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
               <item name="ts_react_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+              <item name="ts_react_app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +249,8 @@
       <workItem from="1565009578785" duration="4880000" />
       <workItem from="1565016946993" duration="23000" />
       <workItem from="1565016975180" duration="852000" />
-      <workItem from="1565053045007" duration="10466000" />
+      <workItem from="1565053045007" duration="11888000" />
+      <workItem from="1565092957992" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -250,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57928000" />
+    <option name="totallyTimeSpent" value="60063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -258,19 +285,17 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="0" />
-      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="DB Execution Console" order="14" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32880098" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33745363" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32880098" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32880098" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.2732475" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.27682403" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Console" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32880098" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -280,6 +305,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32880098" />
+      <window_info anchor="bottom" id="Messages" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,43 +336,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="用splice更新列表,Partial声明部分类型，Object.assign拷贝todo-list" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/Hanbaoyi.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#74#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/.yo-rc.json" />
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/dist/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/src/test.ts" />
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/src/shims-tsx.d.ts" />
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/shims-vue.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_cli3/src/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -374,9 +364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -391,9 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,9 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#144#200#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,20 +419,11 @@
         <state relative-caret-position="-62" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/HelloWorld.vue" />
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="e#327#381#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,52 +536,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#196#250#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.css">
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.css" />
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.test.tsx" />
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/serviceWorker.ts" />
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/react-app-env.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_app/src/serviceWorker.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="139" column="24" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/ts_react_app/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/ts_react_app/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="21" selection-start-column="21" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.tsx" />
+    <entry file="file://$PROJECT_DIR$/ts_react_app/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ts_react_app/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="156">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/Button.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_app/src/Button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
