@@ -2,7 +2,7 @@
   <div id="app">
     <div class="inner">
       <new-todo @addTodo="addTodo"></new-todo>
-      <todo-list :list="list"></todo-list>
+      <todo-list :list="list" @updateTodo="updateTodo"></todo-list>
     </div>
   </div>
 </template>
@@ -33,6 +33,11 @@
     addTodo(name: string) {
       let todo: Todo = {name, status: 'todo'}
       this.list.push(todo)
+    }
+
+    updateTodo(todo: Todo, index: number, part: Partial<Todo>) { /*Partial<Todo> 参数可以只包含Todo的一部分类型*/
+      let newTodo: Todo = Object.assign({}, todo, part)
+      this.list.splice(index, 1, newTodo)
     }
   }
 </script>

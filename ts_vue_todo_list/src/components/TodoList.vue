@@ -4,7 +4,7 @@
       <li v-for="(todoItem,index) in list" :key="index">
         <input type="checkbox"
                :checked="todoItem.status === 'done'"
-               @change="changeStatus(todoItem)"
+               @change="changeStatus(todoItem,index, $event)"
         >{{todoItem.name}}
       </li>
     </ol>
@@ -22,8 +22,9 @@
     }
   })
   export default class TodoList extends Vue {
-    changeStatus(todoItem: Todo){
-      console.log(todoItem);
+    changeStatus(todoItem: Todo, index: number, e: Event) {
+      let checked = (<HTMLInputElement>(e.target)).checked
+      this.$emit('updateTodo', todoItem, index, {status: checked ? 'done' : 'todo'})
     }
   }
 </script>
