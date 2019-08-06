@@ -21,15 +21,18 @@
     components: {
       NewTodo,
       TodoList
+    },
+    watch:{
+      list(newValue:Array<Todo>){
+        let string = JSON.stringify(newValue)
+        localStorage.setItem('data', string)
+      }
     }
   })
 
   export default class App extends Vue {
-    list: Array<Todo> = [
-      {name: '任务1', status: 'todo'},
-      {name: '任务2', status: 'done'}
-    ]
-
+    //<string>localStorage.getItem('data')  断言它肯定是字符串
+    list: Array<Todo> = localStorage.getItem('data') ? JSON.parse(<string>localStorage.getItem('data')) : []
     addTodo(name: string) {
       let todo: Todo = {name, status: 'todo'}
       this.list.push(todo)
