@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/High-level-types/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/High-level-types/demo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/High-level-types/react-demo.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High-level-types/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/demo.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="demo.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/High-level-types/demo.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="react-demo.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/High-level-types/react-demo.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="16">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,10 +105,10 @@
         <option value="$PROJECT_DIR$/ts_react_class/src/index.tsx" />
         <option value="$PROJECT_DIR$/ts_react_class/src/App.tsx" />
         <option value="$PROJECT_DIR$/ts_react_class/src/components/button.tsx" />
-        <option value="$PROJECT_DIR$/High-level-types/demo.ts" />
         <option value="$PROJECT_DIR$/Function_2/react-demo.ts" />
         <option value="$PROJECT_DIR$/High-level-types/demo.html" />
         <option value="$PROJECT_DIR$/High-level-types/react-demo.ts" />
+        <option value="$PROJECT_DIR$/High-level-types/demo.ts" />
       </list>
     </option>
   </component>
@@ -254,7 +243,7 @@
       <workItem from="1565053045007" duration="11888000" />
       <workItem from="1565092957992" duration="3841000" />
       <workItem from="1565141233498" duration="6464000" />
-      <workItem from="1565183240825" duration="960000" />
+      <workItem from="1565183240825" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -347,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565173709410</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="类型的且运算">
+      <created>1565185059171</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565185059171</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70615000" />
+    <option name="totallyTimeSpent" value="71721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -418,7 +414,8 @@
     <MESSAGE value="defaultProps默认props参数" />
     <MESSAGE value="【!】解决【props:string|undefined】的问题" />
     <MESSAGE value="onClick?: React.MouseEventHandler; || onClick(e: React.MouseEvent&lt;HTMLDivElement&gt;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="onClick?: React.MouseEventHandler; || onClick(e: React.MouseEvent&lt;HTMLDivElement&gt;)" />
+    <MESSAGE value="类型的且运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="类型的且运算" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/tsconfig.json">
@@ -666,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/High-level-types/demo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -685,8 +675,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/react-demo.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="759">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/High-level-types/demo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>
