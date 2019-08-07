@@ -28,7 +28,13 @@ class Button extends Component<IProps,IState> { //指定props类型和state类�
   }
   constructor(props:IProps){
     super(props)
-    console.log(this.props.xxx)
+    //console.log(this.props.size + 1) //报错，Object is possibly 'undefined'。undefined不能加1，TS无法保证这个属性会不会是undefined
+    console.log(this.props.size! + 1) //解决办法加【!】号，保证不会为空
+    if(this.props.size === undefined){
+
+    }else{
+      console.log(this.props.size + 1)//IProps.size: string
+    }
     this.state = {
       n: 1
     }
