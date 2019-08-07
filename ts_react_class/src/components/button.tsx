@@ -10,7 +10,7 @@ import React, {Component} from 'react'
 //有限使用接口
 interface IProps {
   size?: string;
-  xxx?: string;
+  xxx: string;
   yyy?: string;
   onClick?: () => void
 }
@@ -23,8 +23,12 @@ interface IState {
 //另外一种写法
 class Button extends Component<IProps,IState> { //指定props类型和state类型
   static displayName = 'HBY-Button'  //displayName用来展示react-developer-tool展示的标签,替换<Button>为<HBYButton>
+  static defaultProps ={ //defaultProps默认props参数，加上这个，必传类型变成可选了，因为这里定义了默认值
+    xxx: '111'
+  }
   constructor(props:IProps){
     super(props)
+    console.log(this.props.xxx)
     this.state = {
       n: 1
     }

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ts_react_class/src/components/Button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts_react_class/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ts_react_class/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts_react_class/src/components/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ts_react_class/src/components/button.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ts_react_class/src/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -34,8 +32,8 @@
       <file leaf-file-name="button.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ts_react_class/src/components/button.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+            <state relative-caret-position="486">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -245,7 +243,7 @@
       <workItem from="1565016975180" duration="852000" />
       <workItem from="1565053045007" duration="11888000" />
       <workItem from="1565092957992" duration="3841000" />
-      <workItem from="1565141233498" duration="3199000" />
+      <workItem from="1565141233498" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -310,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565113948390</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="state，props类型声明">
+      <created>1565169605049</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565169605053</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66390000" />
+    <option name="totallyTimeSpent" value="67113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -376,7 +381,8 @@
     <MESSAGE value="react的函数组件类型React.FunctionComponent&lt;IProps&gt;" />
     <MESSAGE value="Button接受onClick方法，onClick?: React.MouseEventHandler类型" />
     <MESSAGE value="React.MouseEvent.MouseEventHandler鼠标事件类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="React.MouseEvent.MouseEventHandler鼠标事件类型" />
+    <MESSAGE value="state，props类型声明" />
+    <option name="LAST_COMMIT_MESSAGE" value="state，props类型声明" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ts_vue_cli3/package.json">
@@ -620,19 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_class/src/components/Button.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_react_class/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts_react_class/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -640,10 +633,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_class/src/components/Button.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_react_class/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ts_react_class/src/components/button.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        <state relative-caret-position="486">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
