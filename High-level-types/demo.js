@@ -18,4 +18,9 @@ function add(a, b) {
 }
 console.log(add(1, 2));
 console.log(add('1', '2'));
-console.log(add(1, '2'));
+// console.log(add(1, '2'))  报错
+//type,别类型起一个别名
+var name1 = 'hanbaoyi2';
+console.log(name1);
+var name2 = 'hanbaoyi';
+console.log(name2);

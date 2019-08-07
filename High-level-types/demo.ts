@@ -43,5 +43,13 @@ function add(a: any, b: any) {
 
 console.log(add(1, 2))
 console.log(add('1', '2'))
-console.log(add(1, '2'))
+// console.log(add(1, '2'))  报错
 
+
+//type,别类型起一个别名
+const name1:string = 'hanbaoyi2'
+console.log(name1);
+
+type Name = string
+const name2:Name = 'hanbaoyi'
+console.log(name2);
