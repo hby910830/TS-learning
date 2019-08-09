@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="" />
+    <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/declaration_files/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declaration_files/demo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,17 +17,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="demo.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="Vue Single File Component" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DOM-TypeScript/calculator.ts" />
-        <option value="$PROJECT_DIR$/Data-Type/demo.html" />
         <option value="$PROJECT_DIR$/Data-Type/demo.ts" />
         <option value="$PROJECT_DIR$/Interface/demo.js" />
         <option value="$PROJECT_DIR$/Interface/demo.ts" />
@@ -89,6 +101,8 @@
         <option value="$PROJECT_DIR$/High-level-types/demo.html" />
         <option value="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" />
         <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.html" />
       </list>
     </option>
   </component>
@@ -115,6 +129,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/High-level-types/package.json" />
+      <path value="$PROJECT_DIR$/declaration_files/package.json" />
       <path value="$PROJECT_DIR$/ts_react_app/package.json" />
       <path value="$PROJECT_DIR$/ts_react_class/package.json" />
       <path value="$PROJECT_DIR$/ts_vue_cli3/package.json" />
@@ -139,6 +154,17 @@
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+              <item name="declaration_files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
+              <item name="declaration_files" type="462c0819:PsiDirectoryNode" />
+              <item name="demo.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +236,7 @@
       <workItem from="1565141233498" duration="6464000" />
       <workItem from="1565183240825" duration="2589000" />
       <workItem from="1565226520560" duration="9517000" />
-      <workItem from="1565354731010" duration="2233000" />
+      <workItem from="1565354731010" duration="2791000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -380,14 +406,22 @@
       <option name="project" value="LOCAL" />
       <updated>1565358687390</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="yarn add @types/react">
+      <created>1565359927924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565359927924</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83994000" />
+    <option name="totallyTimeSpent" value="84552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="0" />
@@ -435,6 +469,7 @@
         <option value="$PROJECT_DIR$/High-level-types/indexes-type.js" />
         <option value="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" />
         <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.js" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.js" />
       </list>
     </option>
   </component>
@@ -465,37 +500,10 @@
     <MESSAGE value="Partial&lt;Person&gt;，Required&lt;Person&gt;" />
     <MESSAGE value="{ //联合 action: 'create';name: string} | {action: 'update';name: string;  id: number}" />
     <MESSAGE value="Redux的Action可识别联合类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redux的Action可识别联合类型" />
+    <MESSAGE value="yarn add @types/react" />
+    <option name="LAST_COMMIT_MESSAGE" value="yarn add @types/react" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/NewTodo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/models/Todo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/TodoList.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -726,6 +734,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ts_react_app/src/react-app-env.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/demo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
