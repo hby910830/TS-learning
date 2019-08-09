@@ -14,7 +14,8 @@ const a = function (p: Person) {
   console.log(p);
 }
 
-console.log(add(1, 2))
+add(1, 2)
+// add(1, '2') //报错，Argument of type '"2"' is not assignable to parameter of type 'number'.
 
 export default a
 
