@@ -23,3 +23,19 @@ console.log(add2(1))
 export default a
 
 //打包的时候运行命令tsc demo.ts -d，生产demo.d.ts文件
+
+
+//修改window的属性
+declare global {
+  interface Window {
+    server: {
+      host: string
+    }
+  }
+}
+
+// 如果不声明declare global { interface Window {}}
+// 就会报错， Property 'server' does not exist on type 'Window'
+window.server = {
+  host: 'server'
+}
