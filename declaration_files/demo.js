@@ -9,5 +9,7 @@ add(1, 2);
 // add(1, '2') //报错，Argument of type '"2"' is not assignable to parameter of type 'number'.
 a_js_1["default"](1, 1);
 // add1(1,'1') //报错，Argument of type '"1"' is not assignable to parameter of type 'number'
+console.log(a_js_1.add2(1));
+// aaa('1') //报错，Argument of type '"1"' is not assignable to parameter of type 'number'
 exports["default"] = a;
 //打包的时候运行命令tsc demo.ts -d，生产demo.d.ts文件

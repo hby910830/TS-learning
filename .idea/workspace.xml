@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/declaration_files/a.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declaration_files/a.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/a.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declaration_files/a.js" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/a.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/declaration_files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/declaration_files/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/demo.ts" afterDir="false" />
     </list>
@@ -22,17 +23,26 @@
       <file leaf-file-name="demo.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="592">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.d.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="a.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/declaration_files/a.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="44">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -109,10 +119,10 @@
         <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" />
         <option value="$PROJECT_DIR$/declaration_files/demo.html" />
         <option value="$PROJECT_DIR$/declaration_files/package.json" />
-        <option value="$PROJECT_DIR$/declaration_files/a.js" />
         <option value="$PROJECT_DIR$/declaration_files/tsconfig.json" />
-        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/a.js" />
         <option value="$PROJECT_DIR$/declaration_files/a.d.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
       </list>
     </option>
   </component>
@@ -242,7 +252,7 @@
       <workItem from="1565141233498" duration="6464000" />
       <workItem from="1565183240825" duration="2589000" />
       <workItem from="1565226520560" duration="9517000" />
-      <workItem from="1565354731010" duration="4750000" />
+      <workItem from="1565354731010" duration="5516000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -454,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565362337199</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="import | declare">
+      <created>1565363047554</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1565363047554</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86511000" />
+    <option name="totallyTimeSpent" value="87277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -520,7 +537,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="props的children接受JSX.Element类型" />
     <MESSAGE value="props的children接受JSX.Element[]类型" />
     <MESSAGE value="react的函数组件类型React.FunctionComponent&lt;IProps&gt;" />
     <MESSAGE value="Button接受onClick方法，onClick?: React.MouseEventHandler类型" />
@@ -545,7 +561,8 @@
     <MESSAGE value="yarn add @types/node,  create tsconfig.ts" />
     <MESSAGE value="tsconfig.ts里写入&quot;compilerOptions&quot;: {&quot;types&quot;: [&quot;node&quot;], &quot;typeRoots&quot;: [&quot;node_modules/@types&quot;]}" />
     <MESSAGE value="const add: V = require('./a')" />
-    <option name="LAST_COMMIT_MESSAGE" value="const add: V = require('./a')" />
+    <MESSAGE value="import | declare" />
+    <option name="LAST_COMMIT_MESSAGE" value="import | declare" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.test.tsx" />
@@ -782,20 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/declaration_files/node_modules/@types/node/globals.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/declaration_files/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -803,17 +806,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
+    <entry file="file://$PROJECT_DIR$/declaration_files/node_modules/@types/node/globals.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="149" column="10" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/declaration_files/a.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="44">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
