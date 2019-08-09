@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="" />
+    <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/declaration_files/a.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declaration_files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declaration_files/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/demo.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,26 +22,17 @@
       <file leaf-file-name="demo.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="529">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/declaration_files/tsconfig.json">
+      <file leaf-file-name="a.d.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/declaration_files/a.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="a.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="31">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -47,11 +43,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Function_1/demo.js" />
         <option value="$PROJECT_DIR$/class/demo.js" />
         <option value="$PROJECT_DIR$/class/demo.ts" />
         <option value="$PROJECT_DIR$/Function_1/demo.ts" />
@@ -115,8 +110,9 @@
         <option value="$PROJECT_DIR$/declaration_files/demo.html" />
         <option value="$PROJECT_DIR$/declaration_files/package.json" />
         <option value="$PROJECT_DIR$/declaration_files/a.js" />
-        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
         <option value="$PROJECT_DIR$/declaration_files/tsconfig.json" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/a.d.ts" />
       </list>
     </option>
   </component>
@@ -246,7 +242,7 @@
       <workItem from="1565141233498" duration="6464000" />
       <workItem from="1565183240825" duration="2589000" />
       <workItem from="1565226520560" duration="9517000" />
-      <workItem from="1565354731010" duration="4013000" />
+      <workItem from="1565354731010" duration="4750000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -451,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565362193758</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="const add: V = require('./a')">
+      <created>1565362337199</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1565362337199</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85774000" />
+    <option name="totallyTimeSpent" value="86511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -517,7 +520,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Button接受children属性类型" />
     <MESSAGE value="props的children接受JSX.Element类型" />
     <MESSAGE value="props的children接受JSX.Element[]类型" />
     <MESSAGE value="react的函数组件类型React.FunctionComponent&lt;IProps&gt;" />
@@ -542,10 +544,10 @@
     <MESSAGE value="package.json里指定入口文件&quot;main&quot;: &quot;demo.js&quot; 和绑定对应的文件&quot;type&quot;:&quot;demo.t.ts&quot;" />
     <MESSAGE value="yarn add @types/node,  create tsconfig.ts" />
     <MESSAGE value="tsconfig.ts里写入&quot;compilerOptions&quot;: {&quot;types&quot;: [&quot;node&quot;], &quot;typeRoots&quot;: [&quot;node_modules/@types&quot;]}" />
-    <option name="LAST_COMMIT_MESSAGE" value="tsconfig.ts里写入&quot;compilerOptions&quot;: {&quot;types&quot;: [&quot;node&quot;], &quot;typeRoots&quot;: [&quot;node_modules/@types&quot;]}" />
+    <MESSAGE value="const add: V = require('./a')" />
+    <option name="LAST_COMMIT_MESSAGE" value="const add: V = require('./a')" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.css" />
     <entry file="file://$PROJECT_DIR$/ts_react_app/src/App.test.tsx" />
     <entry file="file://$PROJECT_DIR$/ts_react_app/src/serviceWorker.ts" />
     <entry file="file://$PROJECT_DIR$/ts_react_app/public/favicon.ico">
@@ -780,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/declaration_files/node_modules/@types/node/globals.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -794,10 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
+    <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="66">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -805,6 +800,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/a.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
