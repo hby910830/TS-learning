@@ -1,9 +1,25 @@
+import {Attributes} from "react";
+
 interface V {
   (a: number, b: number): number
 }
 
 const add: V = require('./a')
 import add1, {add2} from './a.js' //需要创建对应的a.d.ts文件
+
+// import React from 'react' //给React附值的时候需要写成下面这种形式
+import * as React from 'react'
+
+declare module 'react' {
+  const xxx: number;
+  //扩展React本身自带的所有属性
+  interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
+    styleName?: string
+  }
+}
+// 如果不声明declare module 'react' { const xxx: number}
+//报错，Property 'xxx' does not exist on type 'typeof React'
+console.log(React.xxx) //let xxx: number, 注意：React.xxx不能改
 
 export interface Person {
   name: string;

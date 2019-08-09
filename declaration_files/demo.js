@@ -2,6 +2,11 @@
 exports.__esModule = true;
 var add = require('./a');
 var a_js_1 = require("./a.js"); //需要创建对应的a.d.ts文件
+// import React from 'react' //给React附值的时候需要写成下面这种形式
+var React = require("react");
+// 如果不声明declare module 'react' { const xxx: number}
+//报错，Property 'xxx' does not exist on type 'typeof React'
+console.log(React.xxx); //let xxx: number, 注意：React.xxx不能改
 var a = function (p) {
     console.log(p);
 };
