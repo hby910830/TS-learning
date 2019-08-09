@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High-level-types/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/demo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Readonly-Partial.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/High-level-types/Readonly-Partial.ts">
+      <file leaf-file-name="discriminated-unions.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/High-level-types/discriminated-unions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lib.es5.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/node_modules/typescript/lib/lib.es5.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="1437" selection-start-line="1437" selection-end-line="1439" selection-end-column="2" />
+            <state relative-caret-position="297">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -61,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DOM-TypeScript/style.css" />
         <option value="$PROJECT_DIR$/DOM-TypeScript/calculator.ts" />
         <option value="$PROJECT_DIR$/Data-Type/demo.html" />
         <option value="$PROJECT_DIR$/Data-Type/demo.ts" />
@@ -109,9 +101,10 @@
         <option value="$PROJECT_DIR$/High-level-types/demo.ts" />
         <option value="$PROJECT_DIR$/High-level-types/literals-type.ts" />
         <option value="$PROJECT_DIR$/High-level-types/multimode-this-type.ts" />
-        <option value="$PROJECT_DIR$/High-level-types/demo.html" />
         <option value="$PROJECT_DIR$/High-level-types/indexes-type.ts" />
+        <option value="$PROJECT_DIR$/High-level-types/demo.html" />
         <option value="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" />
+        <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" />
       </list>
     </option>
   </component>
@@ -162,17 +155,6 @@
             <path>
               <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="High-level-types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="High-level-types" type="462c0819:PsiDirectoryNode" />
-              <item name="Readonly-Partial.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -243,7 +225,8 @@
       <workItem from="1565092957992" duration="3841000" />
       <workItem from="1565141233498" duration="6464000" />
       <workItem from="1565183240825" duration="2589000" />
-      <workItem from="1565226520560" duration="9241000" />
+      <workItem from="1565226520560" duration="9517000" />
+      <workItem from="1565354731010" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -392,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565262317968</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Partial&lt;Person&gt;，Required&lt;Person&gt;">
+      <created>1565264056850</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565264056850</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81485000" />
+    <option name="totallyTimeSpent" value="82615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -410,7 +400,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33745363" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32880098" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32880098" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.1981402" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" visible="true" weight="0.20100144" />
       <window_info id="Project Explorer" order="1" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -447,6 +437,7 @@
         <option value="$PROJECT_DIR$/High-level-types/multimode-this-type.js" />
         <option value="$PROJECT_DIR$/High-level-types/indexes-type.js" />
         <option value="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" />
+        <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.js" />
       </list>
     </option>
   </component>
@@ -474,16 +465,10 @@
     <MESSAGE value="多态this类型，this既可以指向父类，也可以指向子类" />
     <MESSAGE value=" [K: string]: any， type X = keyof Person，  &lt;T, K extends keyof T&gt;，  T[K][]" />
     <MESSAGE value="Readonly&lt;Person&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readonly&lt;Person&gt;" />
+    <MESSAGE value="Partial&lt;Person&gt;，Required&lt;Person&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partial&lt;Person&gt;，Required&lt;Person&gt;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/node_modules/@types/node/globals.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22412">
-          <caret line="149" column="10" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interface/demo.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -686,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/High-level-types/literals-type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/multimode-this-type.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4" />
@@ -706,8 +684,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/indexes-type.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/High-level-types/Readonly-Partial.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/node_modules/typescript/lib/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="23">
+          <caret line="1437" selection-start-line="1437" selection-end-line="1439" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/High-level-types/literals-type.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/High-level-types/indexes-type.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -716,35 +715,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/High-level-types/indexes-type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/High-level-types/Readonly-Partial.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_webpack4/node_modules/typescript/lib/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="1437" selection-start-line="1437" selection-end-line="1439" selection-end-column="2" />
+        <state relative-caret-position="276">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/Readonly-Partial.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="61" column="15" lean-forward="true" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        <state relative-caret-position="330">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/High-level-types/discriminated-unions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -33,7 +33,7 @@
     };
     //Required和Partials是两个相反的操作
     // 报错，Type '{ name: string; }' is not assignable to type 'Required<Person>'. Property 'age' is missing in type '{ name: string; }'.
-    var person3 = {
-        name: 'hby'
-    };
+    // const person3: Required<Person> = {
+    //   name: 'hby'
+    // }
 }
