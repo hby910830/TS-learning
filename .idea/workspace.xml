@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/High-level-types/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High-level-types/discriminated-unions.js" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/discriminated-unions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="discriminated-unions.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/High-level-types/discriminated-unions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="495">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -226,7 +224,7 @@
       <workItem from="1565141233498" duration="6464000" />
       <workItem from="1565183240825" duration="2589000" />
       <workItem from="1565226520560" duration="9517000" />
-      <workItem from="1565354731010" duration="854000" />
+      <workItem from="1565354731010" duration="1663000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -382,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565264056850</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="{ //联合 action: 'create';name: string} | {action: 'update';name: string;  id: number}">
+      <created>1565357845493</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1565357845493</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82615000" />
+    <option name="totallyTimeSpent" value="83424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -466,7 +471,8 @@
     <MESSAGE value=" [K: string]: any， type X = keyof Person，  &lt;T, K extends keyof T&gt;，  T[K][]" />
     <MESSAGE value="Readonly&lt;Person&gt;" />
     <MESSAGE value="Partial&lt;Person&gt;，Required&lt;Person&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partial&lt;Person&gt;，Required&lt;Person&gt;" />
+    <MESSAGE value="{ //联合 action: 'create';name: string} | {action: 'update';name: string;  id: number}" />
+    <option name="LAST_COMMIT_MESSAGE" value="{ //联合 action: 'create';name: string} | {action: 'update';name: string;  id: number}" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Interface/demo.ts">
@@ -729,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/High-level-types/discriminated-unions.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="495">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
