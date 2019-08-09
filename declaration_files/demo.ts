@@ -1,11 +1,20 @@
-export interface Person {
-  name: string;
-  age:number
+// import add from './a'
+interface V {
+  (a: number, b: number): number
 }
 
-const a = function(p :Person){
+const add: V = require('./a')
+
+export interface Person {
+  name: string;
+  age: number
+}
+
+const a = function (p: Person) {
   console.log(p);
 }
+
+console.log(add(1, 2))
 
 export default a
 

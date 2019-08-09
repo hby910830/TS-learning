@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cb8b2e-4d90-48c5-956c-8b71f47f7683" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/declaration_files/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/declaration_files/demo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declaration_files/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declaration_files/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declaration_files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declaration_files/demo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/declaration_files/demo.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="111">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/declaration_files/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -32,12 +52,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="tsconfig.json" />
         <option value="Vue Single File Component" />
         <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -52,9 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data-Type/demo.ts" />
-        <option value="$PROJECT_DIR$/Interface/demo.js" />
-        <option value="$PROJECT_DIR$/Interface/demo.ts" />
         <option value="$PROJECT_DIR$/Function_1/demo.js" />
         <option value="$PROJECT_DIR$/class/demo.js" />
         <option value="$PROJECT_DIR$/class/demo.ts" />
@@ -101,8 +118,11 @@
         <option value="$PROJECT_DIR$/High-level-types/demo.html" />
         <option value="$PROJECT_DIR$/High-level-types/Readonly-Partial.ts" />
         <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.ts" />
-        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
         <option value="$PROJECT_DIR$/declaration_files/demo.html" />
+        <option value="$PROJECT_DIR$/declaration_files/package.json" />
+        <option value="$PROJECT_DIR$/declaration_files/a.js" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -160,12 +180,6 @@
               <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
               <item name="declaration_files" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="typeScript深入浅出" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typeScript深入浅出" type="462c0819:PsiDirectoryNode" />
-              <item name="declaration_files" type="462c0819:PsiDirectoryNode" />
-              <item name="demo.ts" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,6 +198,7 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/ts_vue_webpack4/node_modules/typescript/lib" />
   </component>
@@ -236,7 +251,7 @@
       <workItem from="1565141233498" duration="6464000" />
       <workItem from="1565183240825" duration="2589000" />
       <workItem from="1565226520560" duration="9517000" />
-      <workItem from="1565354731010" duration="2791000" />
+      <workItem from="1565354731010" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="数据类型">
       <created>1564822592230</created>
@@ -413,11 +428,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565359927924</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="tsc demo.ts -d命令，自己生产demo.d.ts声明文件">
+      <created>1565360663798</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565360663798</updated>
+    </task>
+    <task id="LOCAL-00027" summary="package.json里指定入口文件&quot;main&quot;: &quot;demo.js&quot; 和绑定对应的文件&quot;type&quot;:&quot;demo.t.ts&quot;">
+      <created>1565361030053</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565361030053</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84552000" />
+    <option name="totallyTimeSpent" value="85487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -470,6 +499,8 @@
         <option value="$PROJECT_DIR$/High-level-types/Readonly-Partial.js" />
         <option value="$PROJECT_DIR$/High-level-types/discriminated-unions.js" />
         <option value="$PROJECT_DIR$/declaration_files/demo.js" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.d.ts" />
+        <option value="$PROJECT_DIR$/declaration_files/demo.js.map" />
       </list>
     </option>
   </component>
@@ -477,7 +508,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数据类型" />
     <MESSAGE value="提取出公用的models/Todo.ts" />
     <MESSAGE value="用splice更新列表,Partial声明部分类型，Object.assign拷贝todo-list" />
     <MESSAGE value="Button接受children属性类型" />
@@ -501,22 +531,11 @@
     <MESSAGE value="{ //联合 action: 'create';name: string} | {action: 'update';name: string;  id: number}" />
     <MESSAGE value="Redux的Action可识别联合类型" />
     <MESSAGE value="yarn add @types/react" />
-    <option name="LAST_COMMIT_MESSAGE" value="yarn add @types/react" />
+    <MESSAGE value="tsc demo.ts -d命令，自己生产demo.d.ts声明文件" />
+    <MESSAGE value="package.json里指定入口文件&quot;main&quot;: &quot;demo.js&quot; 和绑定对应的文件&quot;type&quot;:&quot;demo.t.ts&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="package.json里指定入口文件&quot;main&quot;: &quot;demo.js&quot; 和绑定对应的文件&quot;type&quot;:&quot;demo.t.ts&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/components/TodoList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts_vue_todo_list/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -735,9 +754,6 @@
     <entry file="file://$PROJECT_DIR$/ts_react_app/src/react-app-env.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/declaration_files/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/declaration_files/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -748,10 +764,38 @@
     <entry file="file://$PROJECT_DIR$/declaration_files/demo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/demo.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/declaration_files/demo.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="111">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/declaration_files/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
