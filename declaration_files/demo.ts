@@ -12,6 +12,7 @@ import * as React from 'react'
 
 declare module 'react' {
   const xxx: number;
+
   //扩展React本身自带的所有属性
   interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
     styleName?: string
