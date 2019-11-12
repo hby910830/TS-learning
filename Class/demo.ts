@@ -21,7 +21,7 @@
         static xxx = 1;  // name/age/say不是Human这个类的属性，而是实例的属性； static表示Human的属性，可以使用Human.xxx
         public name: string;
         private _age: number;  //规范私有属性用下划线_
-        //getter--setter 设计莫舍
+        //getter--setter 设计模式
         get age() {
             return this._age
         }
